@@ -2,32 +2,24 @@ span {
   font-size: 70px;
 }
 
-.first:hover {
-  color: red;
+.green:hover {
+  color: #98c379;
 }
 
-.second:hover {
-  color: blue;
+.blue:hover {
+  color: #56b6c2;
 }
 
-.third:hover {
-  color: green;
+.yellow:hover {
+  color: #c6ad00;
 }
 
-.forth:hover {
-  color: yellow;
+.purple:hover {
+  color: #b400b9;
 }
 
-.fith:hover {
-  color: orange;
-}
-
-.sixth:hover {
-  color: pink;
-}
-
-.seventh:hover {
-  color: grey;
+.red:hover {
+  color: #c62d48;
 }
 
 .Submit {
@@ -43,7 +35,7 @@ span {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.025em;
-  color: #6772e5;
+  color: #7795f8;
   text-decoration: none;
   transition: all 0.15s ease;
 }
@@ -56,7 +48,6 @@ span {
 }
 
 .Submit:hover {
-  color: #7795f8;
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
@@ -66,6 +57,7 @@ span {
   -moz-appearance: none;
   appearance: none;
   width: 100%;
+  height: 38px;
 }
 
 .Search:focus {
